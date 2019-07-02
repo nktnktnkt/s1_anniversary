@@ -94,14 +94,15 @@ void setup() {
 
 
 void draw() {
-  //if(increment % 2 == 1){
+  
   background(0);
-  //}
+  
   //get all the pixels
   loadPixels();
   depthThreshold.loadPixels();
   depthPrevious.loadPixels();
   filteredDisplay.loadPixels();
+  
   theLfo += 0.1;
   
   /**************************************
