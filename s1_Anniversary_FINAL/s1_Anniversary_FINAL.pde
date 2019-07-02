@@ -21,8 +21,6 @@ float carpetNum;
 float carpetHue;
 float thresholdVal;
 
-
-
 PImage depthThreshold;
 PImage depthPrevious;
 PImage filteredDisplay;
